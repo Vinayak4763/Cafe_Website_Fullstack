@@ -1,0 +1,374 @@
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ .NavHeader{
+     display:flex;
+     align-items:center;
+     justify-content:space-between;
+     //background-color:rgba(0,0,0,0.1);
+
+
+}
+.Navul {
+    list-style: none;
+    
+}
+.Search input {
+    height:40px;
+}
+.Container .Navul a {
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+.Search{
+    padding-top:35px;
+}
+.Container a {
+    color: black;
+    
+    text-decoration: none;
+    font-size: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+.IceCream a {
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: black;
+    border-block-color: black;
+}
+ 
+button{
+    background-color:grey;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    border-radius:5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.MainBody{
+    background:url(Images/Background.jpg) no-repeat;
+    background-size:cover;
+    background-position :center;
+    height:700px;
+}
+.MainHead {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+        float:right;
+        color:black;
+}
+.MainHead2 {
+    height:150px;
+   
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    float: right;
+    color: white;
+    margin-right:50px;
+    width:300px;
+    margin-top:300px;
+    margin-bottom:20px;
+}
+.Maindiv {
+    width: 200px;
+    float: left;
+    
+    
+}
+input{
+    margin:20px;
+    height:30px;
+    border-radius:5px;
+}
+.HomeMenu{
+  
+    height:300px;
+    margin:18px;
+    border-radius:10px;
+    background-color:black;
+    width:30%;
+    color:white;
+    display:inline-block;
+}
+.MenuIn {
+    margin-left: 30%;
+    margin-right: 10%;
+    padding-top: 10%;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PrContainer {
+    width:auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: azure;
+}
+.Item {
+    width: 30%;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 10px;
+    background-color: ghostwhite;
+   
+   
+}
+.foot{
+   display:flex;
+   justify-content:center;
+   background-color:black;
+   color:white;
+   border-radius:10px;
+}
+.IceCream {
+    background: url(Images/icecream.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.IcecreamL {
+     
+    border-radius:20px;
+}
+.Cafe {
+    border-radius: 10px;
+    align-items: center;
+    background: url(Images/Cafe.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.CafeHe {
+    float :right;
+    font-size: 20px;
+    color: beige;
+    width: 250px;
+}
+.PrList {
+   
+    background-size: cover;
+}
+
+.View {
+    border-radius: 5px;
+    padding: 50px;
+    background-color: white
+}
+
+.VLink {
+    color: black;
+    font-size: 20px;
+}
+.Vbutton {
+    display: block;
+    width: 100%;
+}
+.ViewCon {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: medium;
+    margin: 10px;
+   
+    background-size: cover;
+    background-position: center;
+    background-color: whitesmoke;
+}
+.CartB {
+    display: flex;
+    justify-content: center;
+  
+    height:100px;
+}
+.CartButton {
+    background: url(Images/Cart1.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.AddCartB {
+    width: 65%;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.BackB {
+    width: 35%;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.Cart{
+    height:500px;
+}
+.CItem{
+    width: 100px;
+    height: 200px;
+    margin:40px;
+    background-color:black;
+}
+.PrContainer{
+    position:relative;
+}
+.PCart {
+    height:100%;
+    background-color:azure;
+    
+    position:relative;
+}
+.Car{
+    margin:60px;
+    display:inline-block;
+}
+.Product{
+    display:inline-block;
+     
+}
+.CartButton2 {
+    background: url(Images/Cross.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    height:100px;
+    width:200px;
+    margin-left:43%;
+}
+.foot{
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+.footp{
+    position:relative;
+}
+
+.Form {
+    margin:50px;
+    background-color:aquamarine;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, label, span {
+    font-weight: 500;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body, html, .App, #root, .auth-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.auth-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+   
+}
+
+.auth-inner {
+    width: 450px;
+    margin: auto;
+    
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    transition: all .3s;
+}
+
+.auth-wrapper .form-control:focus {
+    border-color: #167bff;
+    box-shadow: none;
+}
+
+.auth-wrapper h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+}
+
+.custom-control-label {
+    font-weight: 400;
+}
+
+.forgot-password,
+.forgot-password a {
+    text-align: right;
+    font-size: 13px;
+    padding-top: 10px;
+    color: #7f7d7d;
+    margin: 0;
+}
+
+    .forgot-password a {
+        color: #167bff;
+    }
+    .auth-inner input{
+        width:100%;
+       
+    }
+.auth-inner button {
+    width: 100%;
+    background-color:snow;
+}
+auth-inner label {
+    width: 100%;
+}
+
+.foot {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footp {
+    position: relative;
+}
+.About {
+    background-color:aliceblue;
+    background-size: cover;
+    background-position: center;
+    height: 640px;
+}
+.LoginS{
+    height:40%;
+}
+.LB{
+    background-color:azure;
+}
