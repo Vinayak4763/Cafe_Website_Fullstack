@@ -55,8 +55,8 @@ function decryptText(encryptedText,k) {
 var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'utkarshtiwari.437@gmail.com',
-        pass: 'soediubmuymxmvwb'
+        user: 'sonivinayak716@gmail.com',
+        pass: 'Avvghk7ig4#1'
     }
 });
 const { publicKey, privateKey } = crypto.generateKeyPairSync("rsa", {
@@ -89,7 +89,7 @@ app.post('/webhook', express.raw({ type: 'application/json' }), (request, respon
             console.log(reciet);
             console.log(email);
             var mailOptions = {
-                from: 'utkarshtiwari.437@gmail.com',
+                from: 'sonivinayak716@gmail.com',
                 to: `${email}`,
                 subject: 'ORDER SUCCESSFULL YOUR TOKEN FOR ORDER IS',
                 text: `${encryptedText.toString('base64') }-VALID FOR NEXT 30 MINS`
